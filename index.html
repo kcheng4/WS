@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<title>Chat</title>
+	</head>
+	<body id="main">
+		<div class="chat">
+			<input type="text" class="chat-name" placeholder="Enter Your Name">
+			<div class="chat-messages"></div>
+			<textarea class="chat-textarea" placeholder="Type Your Message"></textarea>
+			<div class="chat-status">Status: <span>Idle</span><button id="clear">Clear</button></div>
+			
+		</div>
+		<script src="http://127.0.0.1:8083/socket.io/socket.io.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
